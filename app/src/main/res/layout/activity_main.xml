@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvitems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="null"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <Spinner
+        android:id="@+id/spinneritem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/radiogroupitem">
+
+            <RadioButton
+                android:id="@+id/rdone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="red"
+                android:text="RED"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rdtwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:onClick="green"
+                android:text="GREEN"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold|italic" />
+
+
+        </RadioGroup>
+
+
+
+
+
+</LinearLayout>

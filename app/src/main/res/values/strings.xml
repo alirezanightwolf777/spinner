@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Answer_Box</string>
+    <string-array name="colours_name">
+        <item> RED </item>
+        <item> YELLOW </item>
+        <item> GREEN </item>
+
+    </string-array>
+</resources>
